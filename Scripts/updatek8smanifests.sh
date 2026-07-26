@@ -4,7 +4,7 @@ set -e
 set -x
 
 # 1. FIX THE URL: Ensure your actual org name 'atrayeepathak31' is here, NOT the placeholder
-REPO_URL="https://FbujRPeFwd5AFKNeOWwk2gJaGDZTsbKqjRvBTJfCI1MY6pKwtdYBJQQJ99CGACAAAAAAASAZDO1F1g@dev.azure.com/atrayeepathak31/Azure-devOps-project/_git/Azure-devOps-project"
+REPO_URL="https://:FbujRPeFwd5AFKNeOWwk2gJaGDZTsbKqjRvBTJfCI1MY6pKwtdYBJQQJ99CGACAAAAAAASAZDO1F1g@dev.azure.com/atrayeepathak31/Azure-devOps-project/_git/Azure-devOps-project"
 
 # Clone the git repository into the /tmp directory
 git clone "$REPO_URL" /tmp/temp_repo
