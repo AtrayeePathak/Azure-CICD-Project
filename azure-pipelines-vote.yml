@@ -56,8 +56,15 @@ stages:
   - job: Update
     displayName: Update
     steps:
+    # 1. NEW FIX: Strip Windows line endings before running the script
+    - task: Bash@3
+      displayName: 'Fix Windows Line Endings'
+      inputs:
+        targetType: 'inline'
+        script: 'sed -i "s/\r$//" Scripts/updatek8smanifests.sh'
+        
+    # 2. Run the shell script
     - task: ShellScript@2
       inputs:
         scriptPath: 'Scripts/updatek8smanifests.sh'
         args: 'vote $(imageRepository) $(tag)'
-    
