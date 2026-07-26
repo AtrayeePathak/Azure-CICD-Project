@@ -17,7 +17,8 @@ sed -i "s|image:.*|image: atrayeeazurecicd/$2:$3|g" k8s-specifications/$1-deploy
 
 # Add the modified files
 git add .
-
+git config user.email "azureagent@cicd.com"
+git config user.name "Azure DevOps Agent"
 # Commit the changes
 git commit -m "Update Kubernetes manifest"
 
