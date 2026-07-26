@@ -15,7 +15,7 @@ spec:
         app: vote
     spec:
       containers:
-      - image: atrayeeazurecicd.azurecr.io/votingapp:13
+      - image: atrayeeazurecicd.azurecr.io/votingapp:14
         name: vote
         ports:
         - containerPort: 80
