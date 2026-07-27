@@ -3,8 +3,8 @@
 set -e 
 set -x
 
-# 1. FIX THE URL: Ensure your actual org name 'atrayeepathak31' is here, NOT the placeholder
-REPO_URL="https://:***REDACTED_PAT_2***@dev.azure.com/atrayeepathak31/Azure-devOps-project/_git/Azure-devOps-project"
+# 1. FIX THE URL: Replace this placeholder with your actual Azure DevOps repo URL before running the script.
+REPO_URL="https://<your-azure-devops-org>@dev.azure.com/<your-organization>/<your-project>/_git/<your-repo>"
 # Clone the git repository into the /tmp directory
 git clone "$REPO_URL" /tmp/temp_repo
 
