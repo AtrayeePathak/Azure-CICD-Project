@@ -10,6 +10,14 @@ A simple distributed microservices application running across multiple Docker co
 * A [Postgres](https://hub.docker.com/_/postgres/) database backed by a Docker volume
 * A [Node.js](/result) web app which shows the results of the voting in real time
 
+## Architecture Diagram
+
+> Add your architecture diagram here.
+>
+> `![Architecture Diagram](azure project.png)`
+>
+> Replace the image path with the actual diagram file once available.
+
 ## Cloud Infrastructure & CI/CD Architecture
 
 This project implements a zero-touch deployment workflow using the following Azure and GitOps technologies:
