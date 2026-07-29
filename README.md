@@ -12,7 +12,7 @@ A simple distributed microservices application running across multiple Docker co
 
 ## Architecture Diagram
 
-![Architecture Diagram](azure project.png)
+![Architecture Diagram](azure%20project.png)
 
 ## Cloud Infrastructure & CI/CD Architecture
 
