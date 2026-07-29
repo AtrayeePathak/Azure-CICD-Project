@@ -12,11 +12,7 @@ A simple distributed microservices application running across multiple Docker co
 
 ## Architecture Diagram
 
-> Add your architecture diagram here.
->
-> `![Architecture Diagram](azure project.png)`
->
-> Replace the image path with the actual diagram file once available.
+![Architecture Diagram](azure project.png)
 
 ## Cloud Infrastructure & CI/CD Architecture
 
